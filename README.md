@@ -15,5 +15,13 @@ can be used for  -- Web Developement
  VARIABLES:
  let name="kalyani"
  let num=10
+ datatypes: primitive(number,string,Null,boolean....),Object
+ Const keyword is used to make the variable constant
+ typeof keyword will give u type of data
+ DataType
+ Typeof
+ Conversions
+ Coersion
+ 
             
     
