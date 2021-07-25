@@ -22,6 +22,29 @@ can be used for  -- Web Developement
  Typeof
  Conversions
  Coersion
+ let Vs var Vs const
+ arrow function -- > with arguments,with default arguments,with rest arguments
+ spread operator eg.copy one arry eles to another array
+ Destructing object Assigment : for neatly assigning values taken directly from an object.
+ eg: 
+ 
+ const user = { name: 'John Doe', age: 34 };
+
+<!-- const name = user.name;
+const age = user.age; -->
+
+const { name, age } = user; // destructing Assignment
+
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
+
+const { name: userName, age: userAge } = user;
+
+Destructing array Assigment
+
+template literals for strings `${variable}`
+
+shorthand object literal 
+ 
  
             
     
