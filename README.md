@@ -44,7 +44,10 @@ Destructing array Assigment
 template literals for strings `${variable}`
 
 shorthand object literal 
- 
- 
+Import
+export modules or files
+export default,import default
+promise (has 3 states pending,fulfilled,failed) --> resolve => then()
+            reject =>  catch()
             
     
