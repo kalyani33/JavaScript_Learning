@@ -50,8 +50,36 @@ if (true) {
 }
 // Kalyani
 ```
+
 <img width="493" alt="image" src="https://github.com/kalyani33/JavaScript_Learning/assets/37569003/2d210aa4-01a5-4b87-bff6-59f58e2617a9">  
 <p> Recommended using **const** whenever you do not need to reassign the variable value, and only use ***let*** when you absolutely have to reassign a variable. </p>
+
+## Arrow Function
+```
+const arr = ["Kalyani","Markram","Pedro","Pedro"];
+const newarr = arr.map(ele => "Hello " + ele);
+console.log(newarr);
+const arr2 = arr.filter( ele => ele !== "Pedro");
+console.log(arr2);
+```
+### Array methods
+```
+const items = [
+    {name:"Bike",price:600},
+    {name:"TV",price:500},
+    {name:"Album",price:100},
+    {name:"Laptop",price:400},
+    {name:"Book",price:5}
+];
+const filteredItem = [items.filter(ele => ele.price > 400)];
+console.log(filteredItem);
+
+const printItems = items.map(item => console.log(item));
+
+const findItem  = items.find(item => item.name=="Book");
+
+items.forEach(item => console.log(item.name));
+```
 
             
  
