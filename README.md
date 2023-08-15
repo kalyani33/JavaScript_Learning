@@ -79,6 +79,24 @@ const printItems = items.map(item => console.log(item));
 const findItem  = items.find(item => item.name=="Book");
 
 items.forEach(item => console.log(item.name));
+
+const hasInexpenseItem = items.some(item => {
+ return item.price <= 100;
+});
+console.log(hasInexpenseItem);
+//output : true
+// if atleast one item satisfies the condition then returns true
+const hasInexpenseItem = items.every(item => {
+ return item.price <= 100;
+});
+//output : true
+// if all the items satisfies the condition then returns true
+
+const nums = [1,3,52,6];
+const includesTwo = nums.includes(7);
+console.log(inludesTwo);
+//output: false
+
 ```
 
             
